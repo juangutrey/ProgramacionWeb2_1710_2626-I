@@ -7,16 +7,14 @@ console.log(logico);
 var logico = 20 == 10 || 8 > 3;
 console.log(logico);*/
 
-// // OR (||)
-// console.log("=== OR (||) ===");
-// console.log("20 == 10 || 8 > 3  =>", 20 == 10 || 8 > 3);   // false || true  => true
-// console.log("20 == 10 || 8 < 3  =>", 20 == 10 || 8 < 3);   // false || false => false
-// console.log("20 > 10  || 8 > 3  =>", 20 > 10  || 8 > 3);   // true  || true  => true
-// console.log("20 > 10  || 8 < 3  =>", 20 > 10  || 8 < 3);   // true  || false => true
-
-// // AND (&&)
-// console.log("\n=== AND (&&) ===");
-// console.log("20 == 10 && 8 > 3  =>", 20 == 10 && 8 > 3);   // false && true  => false
-// console.log("20 == 10 && 8 < 3  =>", 20 == 10 && 8 < 3);   // false && false => false
-// console.log("20 > 10  && 8 > 3  =>", 20 > 10  && 8 > 3);   // true  && true  => true
-// console.log("20 > 10  && 8 < 3  =>", 20 > 10  && 8 < 3);   // true  && false => false
+//Compuertas AND y OR
+//OR
+console.log("15 == 40 || 8 > 12 => ", 15 == 40 || 8 > 12); //0
+console.log("15 == 40 || 8 < 12 => ", 15 == 40 || 8 < 12); //1
+console.log("15 > 40 || 8 > 12 => ", 15 > 40 || 8 > 12);   //0
+console.log("15 > 40 || 8 < 12 => ", 15 > 40 || 8 < 12);   //1
+//AND
+console.log("15 == 40 && 8 > 12 => ", 15 == 40 && 8 > 12); //0
+console.log("15 == 40 && 8 < 12 => ", 15 == 40 && 8 < 12); //0
+console.log("15 > 40 && 8 > 12 => ", 15 > 40 && 8 > 12);   //0
+console.log("15 < 40 && 8 < 12 => ", 15 < 40 && 8 < 12);   //1
